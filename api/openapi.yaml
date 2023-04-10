@@ -142,8 +142,6 @@ paths:
                     content:
                         application/json:
                             schema: { $ref: "#/components/schemas/principal-mapping" }
-                "403":
-                    description: Bad principal UUID.
                 "404":
                     description: Principal not found.
         delete:
